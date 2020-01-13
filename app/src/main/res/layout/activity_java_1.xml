@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Java.Java_1">
+
+
+    <Button
+        android:id="@+id/java_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorBlue"
+        android:text="Java 1"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tip"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorBlue"
+        android:onClick="startJavaOne"
+        android:text="Типы данных"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/java_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPurple"
+        app:layout_constraintTop_toTopOf="@id/tip"
+        app:layout_constraintLeft_toLeftOf="@+id/tip"
+        />
+
+    <Button
+        android:id="@+id/per"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue"
+        android:onClick="startJavaTwo"
+        android:text="Переменные"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tip" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPurple"
+        app:layout_constraintTop_toTopOf="@id/per"
+        app:layout_constraintLeft_toLeftOf="@+id/per"
+        />
+
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue"
+        android:onClick="startJavaTwo"
+        android:text="Константы"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/per" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPurple"
+        app:layout_constraintTop_toTopOf="@id/con"
+        app:layout_constraintLeft_toLeftOf="@+id/con"
+        />
+
+
+
+    <Button
+        android:id="@+id/sik"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue"
+        android:onClick="startJavaTwo"
+        android:text="Циклы"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/con" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPurple"
+        app:layout_constraintTop_toTopOf="@id/sik"
+        app:layout_constraintLeft_toLeftOf="@+id/sik"
+        />
+
+    <Button
+        android:id="@+id/mas"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue"
+        android:onClick="startJavaTwo"
+        android:text="Массивы"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sik" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPurple"
+        app:layout_constraintTop_toTopOf="@id/mas"
+        app:layout_constraintLeft_toLeftOf="@+id/mas"
+        />
+
+
+    <Button
+        android:id="@+id/met"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue"
+        android:onClick="startJavaTwo"
+        android:text="Методы"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mas" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPurple"
+        app:layout_constraintTop_toTopOf="@id/met"
+        app:layout_constraintLeft_toLeftOf="@+id/met"
+        />
+
+
+    <Button
+        android:id="@+id/btn_class"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:background="@color/colorBlue"
+        android:onClick="startJavaTwo"
+        android:text="Классы"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/met" />
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:background="@color/colorPurple"
+        app:layout_constraintTop_toTopOf="@id/btn_class"
+        app:layout_constraintLeft_toLeftOf="@+id/btn_class"
+        />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/colorBlue"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
