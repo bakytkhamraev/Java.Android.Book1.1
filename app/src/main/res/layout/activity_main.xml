@@ -9,58 +9,54 @@
     <Button
         android:id="@+id/moduli"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:background="@color/colorBlue"
         android:text="Модули"
         android:textColor="@color/colorWhite"
         android:textSize="20sp"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/java"
-        android:layout_width="220dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="20dp"
-        android:background="@color/colorBlue"
-        android:onClick="startJava"
-        android:text="Java"
-        android:textColor="@color/colorWhite"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@id/android"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
 
-    <Button
-        android:id="@+id/android"
-        android:layout_width="220dp"
-        android:layout_height="60dp"
-        android:background="@color/colorBlue"
-        android:onClick="startAndroid"
-        android:text="Android"
-        android:textColor="@color/colorWhite"
-        android:textSize="20sp"
+    <ImageButton
+        android:id="@+id/java_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="200sp"
+        android:layout_marginBottom="150sp"
+        android:background="@mipmap/ic_launcher_logo_java"
+        android:onClick="startJava"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/android_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="50sp"
+        android:layout_marginBottom="150sp"
+        android:background="@mipmap/ic_launcher_android"
+        android:onClick="startAndroid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/kotlin_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="350sp"
+        android:background="@mipmap/ic_launcher_kotlin"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/kotlin"
-        android:layout_width="220dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/colorBlue"
-        android:text="Kotlin"
-        android:textColor="@color/colorWhite"
-        android:textSize="20sp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/android" />
-
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:background="@color/colorBlue"
         app:layout_constraintBottom_toBottomOf="parent" />
 
